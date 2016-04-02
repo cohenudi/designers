@@ -1,8 +1,45 @@
-body {
+.main-div {
+  z-index: 1;
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-a {
-  color: #00B7FF;
+.background-div {
+  z-index: -1000;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.right-background-div {
+  width: 50%;
+  height: 100%;
+  float: right;
+  background-image: url("/images/noga.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;}
+
+.left-background-div {
+  width: 50%;
+  height: 100%;
+  float: left;
+  background-image: url("/images/moran.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.right-text-div {
+  position: absolute;
+  top: 0;
+}
+
+.left-text-div {
+  position: absolute;
+  top: 0;
+  right: 50px;
+}
+
+.title-div {
 }
